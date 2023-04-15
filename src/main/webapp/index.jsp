@@ -91,7 +91,7 @@
 			</div>
 		</div>
 		<div class="col-md-4 doc-img">
-			<img src="images/doctor.webp" alt="doctor.jpg" width="500px" height="400px">
+			<img src="images/doctor.webp" alt="doctor.jpg" width="600px" height="400px">
 		</div>
 	</div>
 </div>

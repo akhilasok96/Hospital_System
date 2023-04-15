@@ -1,8 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@page isELIgnored="false"%>
-<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.jsp"><i class="fa fa-sharp fa-light fa-house-chimney-medical"></i> Medi Home</a>
+    <a class="navbar-brand" href="index.jsp"><i class="fa fa-sharp fa-light fa-house-chimney-medical"></i> Medical College</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -28,11 +28,11 @@
           		<a class="nav-link active" aria-current="page" href="user_appointment.jsp">Appointment</a>
         	</li>
         	<li class="nav-item">
-          		<a class="nav-link active" aria-current="page" href="#">View Appointment</a>
+          		<a class="nav-link active" aria-current="page" href="view_appointment.jsp">View Appointment</a>
         	</li>
         	
         	<div class="dropdown">
-				<button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+				<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     				<i class="fa-solid fa-circle-user"></i> ${userObj.fullName}
   				</button>
   				<ul class="dropdown-menu">
