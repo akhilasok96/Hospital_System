@@ -56,13 +56,20 @@
 							<td><%=ap.getDiseases()%></td>
 							<td><%=ap.getStatus()%></td>
 							<td>
-								<a href="#" class='btn btn-primary btn-sm'>Comment</a>
+								<%
+									if("Pending".equals(ap.getStatus())){%>
+									
+										<a href="comment.jsp?id=<%=ap.getId()%>" class='btn btn-primary btn-sm'>Comment</a>
+										
+									<%}else{%>
+										<a href="#" class="btn btn-primary btn-sm disabled">Comment</a>
+									<%}
+								%>
 							</td>
 						</tr>
 						<%
 						}
 						%>
-
 
 					</tbody>
 				</table>

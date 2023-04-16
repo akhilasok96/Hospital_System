@@ -1,3 +1,3 @@
-<div class="container-fluid p-1 bg-primary text-center text-white">
-	<p>Copyright hospital.com</p>
+<div class="container-fluid p-3 bg-primary text-center text-white">
+	<p>Copyright &#169; Group: 2</p>
 </div>

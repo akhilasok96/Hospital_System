@@ -45,6 +45,7 @@
 									<th class="col">Specialization</th>
 									<th class="col">Email</th>
 									<th class="col">Mob No</th>
+									<th class="col">Password</th>
 									<th class="col">Action</th>
 								</tr>
 							</thead>

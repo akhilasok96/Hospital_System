@@ -9,7 +9,7 @@
 <title>Index page</title>
 <style>
 	.paint-card{
-		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+		box-shadow: 0 0 10px 0 rgba(0, 0, 243, 0.3);
 	}
 	
 	.doc-img img{
@@ -20,8 +20,6 @@
 </head>
 <body>
 <%@include file="component/navbar.jsp" %>
-
-
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
