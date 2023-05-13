@@ -35,7 +35,7 @@
 		<c:redirect url="user_login.jsp"></c:redirect>
 	</c:if>
 	<%@include file="component/navbar.jsp"%>
-
+	
 	<div class="container-fulid backImg p-5">
 		<p class="text-center fs-2 text-white"></p>
 	</div>
@@ -46,7 +46,7 @@
 					<div class="card-body">
 						<p class="fs-4 fw-bold text-center text-primary">Appointment
 							List</p>
-						<table class="table">
+						<table class="table table-hover">
 							<thead>
 								<tr>
 									<th scope="col">Full Name</th>
@@ -56,7 +56,6 @@
 									<th scope="col">Diseases</th>
 									<th scope="col">Doctor Name</th>
 									<th scope="col">Status</th>
-
 								</tr>
 							</thead>
 							<tbody>
@@ -80,7 +79,7 @@
 											if ("Pending".equals(ap.getStatus())) {
 											%> <a href="#" class="btn btn-sm btn-warning">Pending</a> <%
 											} else {
-											%> <%=ap.getStatus()%> <%
+											%> <a href="#" class="btn btn-sm btn-success"><%=ap.getStatus()%></a> <%
 											}
 											%>
 										</td>

@@ -77,7 +77,7 @@
 					<div class="card-body text-center text-primary">
 						<i class="far fa-calendar-check fa-3x"></i><br>
 						<p class="fs-4 text-center">
-							Specialist <br><%=dao.countSpecialist()%>
+							Specializations <br><%=dao.countSpecialist()%>
 						</p>
 					</div>
 				</div>

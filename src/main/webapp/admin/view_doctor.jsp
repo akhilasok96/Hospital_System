@@ -36,7 +36,7 @@
 							<div class="fs-3 text-center text-success" role="alert">${succMsg}</div>
 							<c:remove var="succMsg" scope="session" />
 						</c:if>
-						<table class="table">
+						<table class="table table-hover">
 							<thead>
 								<tr>
 									<th class="col">Full Name</th>

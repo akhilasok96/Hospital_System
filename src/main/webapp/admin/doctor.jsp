@@ -14,7 +14,7 @@
 <%@include file="../component/allcss.jsp" %>
 <style>
 	.paint-card{
-		box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+		box-shadow: 0 0 10px 0 rgba(0, 0, 243, 0.3);
 	}
 </style>
 </head>

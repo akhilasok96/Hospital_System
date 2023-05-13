@@ -2,7 +2,7 @@
 <%@page isELIgnored="false"%>
 <nav class="navbar p-2 navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.jsp"><i class="fa fa-sharp fa-light fa-house-chimney-medical"></i> Medical College</a>
+    <a class="navbar-brand" href="index.jsp"><i class="fa fa-sharp fa-light fa-house-chimney-medical"></i> Hopewell</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -41,7 +41,6 @@
   				</ul>
 			</div>
        	</c:if>
-       	
       </ul>
     </div>
   </div>

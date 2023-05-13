@@ -13,7 +13,7 @@
 </style>
 </head>
 <body>
-<%@include file="component/navbar.jsp" %>
+<%@include file="component/navbar.jsp"%>
 
 <div class="container p-5">
 		<div class="row">

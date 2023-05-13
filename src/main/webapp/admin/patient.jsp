@@ -24,7 +24,7 @@
 		<div class="card paint-card">
 			<div class="card-body">
 				<p class="fs-3 text-center">Patient Details</p>
-				<table class="table">
+				<table class="table table-hover">
 					<thead>
 						<tr>
 							<th scope="col">Full Name</th>
