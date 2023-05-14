@@ -16,39 +16,43 @@
 </head>
 <body>
 <%@include file="component/navbar.jsp" %>
+<section class="vh-70 gradient-custom">
+  <div class="container h-100">
+    <div class="row d-flex justify-content-center align-items-center m-5 h-100 p-5">
+      <div class="col-12 col-md-6 col-lg-6 col-xl-5">
+        <div class="card bg-white text-primary shadow-lg p-3 mb-5 bg-white" style="border: 1px solid #0275d8; border-radius: 1rem;">
+          <div class="card-body p-5 text-center">
 
-<div class="container p-5">
-		<div class="row">
-			<div class="col-md-4 offset-md-4">
-				<div class="card paint-card">
-					<div class="card-body">
-						<p class="fs-4 text-center">Admin Login</p>
+            <div class="mb-md-5 mt-md-4 pb-5">
+
+              <h2 class="fw-normal mb-4">Admin Login</h2>
+              <c:if test="${not empty succMsg }">
+				<p class="text-center text-success fs-3">${succMsg}</p>
+				<c:remove var="succMsg" scope="session"/>
+		  	  </c:if>
 						
-						<c:if test="${not empty succMsg }">
-							<p class="text-center text-primary fs-3">${succMsg}</p>
-							<c:remove var="succMsg" scope="session"/>
-						</c:if>
-						
-						<c:if test="${not empty errorMsg }">
-							<p class="text-center text-danger fs-5">${errorMsg}</p>
-							<c:remove var="errorMsg" scope="session"/>
-						</c:if>
-						
-						<form action="adminLogin" method="post">
-							<div class="mb-3">
-								<label class="form-label">Email address</label> <input required
-									name="email" type="email" class="form-control">
-							</div>
-							<div class="mb-3">
-								<label class="form-label">Password</label> <input required
-									name="password" type="password" class="form-control">
-							</div>
-							<button type="submit" class="btn bg-primary text-white col-md-12">Login</button>
-						</form>		
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+			  <c:if test="${not empty errorMsg }">
+				<p class="text-center text-danger fs-5">${errorMsg}</p>
+				<c:remove var="errorMsg" scope="session"/>
+			  </c:if>
+
+			<form action="adminLogin" method="post">
+	              <div class="form-outline form-primary mb-3">
+	                <input style="border: 1px solid #0275d8;" type="email" name="email" class="form-control form-control-lg" placeholder="Email"/>
+	              </div>
+	
+	              <div class="form-outline form-primary mb-3">
+	                <input style="border: 1px solid #0275d8;" type="password" name="password" class="form-control form-control-lg" placeholder="Password"/>
+	              </div>
+	
+	              <button class="btn btn-outline-primary mt-4 btn-lg px-5" type="submit">Login</button>
+			</form>		
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 </body>
 </html>

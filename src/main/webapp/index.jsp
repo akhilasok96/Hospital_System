@@ -81,46 +81,36 @@
 	</div>
 </section>
 
-<section class="py-5 bg-light">
-	<div class="container px-5 my-5">
+<section class="py-3 bg-light">
+	<div class="container text-center px-5 my-5">
 	    <div class="text-center">
-	        <h2 class="fw-bolder">Our team</h2>
-	        <p class="lead fw-normal text-muted mb-5">Dedicated to quality and your wellbeing</p>
-	    </div>
-	    <div class="row gx-5 row-cols-1 row-cols-sm-2 row-cols-xl-4 justify-content-center">
-	        <div class="col mb-5 mb-5 mb-sm-0">
-	            <div class="text-center">
-	                <img class="img-fluid rounded-circle mb-4 px-4"
-	                    src="images/danielx.jpg" alt="..." />
-	                <h5 class="fw-bolder">Ravi Tharakan</h5>
-	                <div class="fst-italic text-muted">CEO &amp; Chairman</div>
-	            </div>
-	        </div>
-	        <div class="col mb-5 mb-5 mb-sm-0">
-	            <div class="text-center">
-	                <img class="img-fluid rounded-circle mb-4 px-4"
-	                    src="images/arunx.jpg" alt="..." />
-	                <h5 class="fw-bolder">Arun Prathap</h5>
-	                <div class="fst-italic text-muted">Chief Doctor</div>
-	            </div>
-	        </div>
-	        <div class="col mb-5 mb-5 mb-sm-0">
-	            <div class="text-center">
-	                <img class="img-fluid rounded-circle mb-4 px-4"
-	                    src="images/veenax.jpg" alt="..." />
-	                <h5 class="fw-bolder">Veena John</h5>
-	                <div class="fst-italic text-muted">Chief Doctor</div>
-	            </div>
-	        </div>
-	        <div class="col mb-5 mb-5 mb-sm-0">
-	            <div class="text-center">
-	                <img class="img-fluid rounded-circle mb-4 px-4"
-	                    src="images/ramyax.jpg" alt="..." />
-	                <h5 class="fw-bolder">Ramya Rajesh</h5>
-	                <div class="fst-italic text-muted">Chief Doctor</div>
-	            </div>
-	        </div>
-	    </div>
+		        <h2 class="fw-bolder">Our team</h2>
+		        <p class="lead fw-normal text-muted mb-5">Dedicated to quality and your wellbeing</p>
+		</div>
+		<div class="container mt-3">
+		    <div class="row">
+		        <div class="col-md-3">
+		            <div class="bg-light p-3 text-center rounded box"><img class="img-responsive rounded-circle" src="images/danielx.jpg" width="110">
+		                <h5 class="mt-3 name">Ravi Tharakan</h5><span class="work d-block">CEO &amp; Chairman</span>
+		            </div>
+		        </div>
+		        <div class="col-md-3">
+		            <div class="bg-light p-3 text-center rounded box"><img class="img-responsive rounded-circle" src="images/arunx.jpg" width="110">
+		                <h5 class="mt-3 name">Arun Prathap</h5><span class="work d-block">Chief Doctor</span>
+		            </div>
+		        </div>
+		        <div class="col-md-3">
+		            <div class="bg-light p-3 text-center rounded box"><img class="img-responsive rounded-circle" src="images/veenax.jpg" width="110">
+		                <h5 class="mt-3 name">Veena John</h5><span class="work d-block">Chief Doctor</span>          
+		            </div>
+		        </div>
+		        <div class="col-md-3">
+		            <div class="bg-light p-3 text-center rounded box"><img class="img-responsive rounded-circle" src="images/ramyax.jpg" width="110">
+		                <h5 class="mt-3 name">Remya Rajesh</h5><span class="work d-block">Chief Doctor</span>
+		            </div>
+		        </div>
+		    </div>
+		</div>
 	</div>
 </section>
 <%@include file="component/footer.jsp" %>
