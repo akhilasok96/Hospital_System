@@ -21,11 +21,11 @@
 	<div class="container h-100">
 	  <div class="row d-flex justify-content-center align-items-center m-5 h-100 p-5">
 	    <div class="col-12 col-md-6 col-lg-6 col-xl-5">
-	      <div class="card bg-white text-primary shadow-lg bg-white"
+	      <div class="card bg-white text-dark shadow-lg bg-white"
 	        style="border: 1px solid #0275d8; border-radius: 1rem;">
 	      <div class="card-body p-5 text-center">
 	
-	        <div class="mb-md-5 mt-md-4 pb-5">
+	        <div class="mb-md-5 mt-md-2">
 	
 	          <h2 class="fw-normal mb-4">User Login</h2>
 	          <c:if test="${not empty succMsg }">
