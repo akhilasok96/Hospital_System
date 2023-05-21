@@ -3,7 +3,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="index.jsp"><i
-			class="fas fa-clinic-medical"></i> Medical College</a>
+			class="fas fa-clinic-medical"></i> Hopewell</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
 			data-bs-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false"

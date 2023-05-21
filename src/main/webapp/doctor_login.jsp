@@ -26,7 +26,7 @@
 
               <h2 class="fw-normal mb-4">Doctor Login</h2>
               <c:if test="${not empty succMsg }">
-				<p class="text-center text-dark fs-3">${succMsg}</p>
+				<p class="text-center text-success fs-3">${succMsg}</p>
 				<c:remove var="succMsg" scope="session"/>
 		  	  </c:if>
 						

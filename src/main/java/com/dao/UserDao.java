@@ -8,6 +8,8 @@ import com.entity.User;
 
 public class UserDao {
 	private Connection conn;
+	private int y;
+	
 
 	public UserDao(Connection conn) {
 		super();
